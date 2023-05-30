@@ -15,8 +15,8 @@ body {
 }
 
 .header-list li {
-  float: right;
-  padding: 30px 30px;
+  float: left;
+  padding: 44px 30px;
 }
 
 .main {
@@ -24,11 +24,11 @@ body {
 }
 
 .copy-container h1 {
-  font-size: 60px;
+  font-size: 100px;
 }
 
 .copy-container h2 {
-  font-size: 40px;
+  font-size: 90px;
 }
 
 .contents {
@@ -38,12 +38,11 @@ body {
 
 .contents h3 {
   font-size: 50px;
-  float:left;
 }
 
 .contents-item {
  margin-right:30px;
- padding:30px;
+ float:left;
 }
 
 .contents-item p {
