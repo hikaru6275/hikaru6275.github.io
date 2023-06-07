@@ -42,11 +42,19 @@
       </div>
     </div>
     <div class="contact-form">
-      <h3>お問い合わせ</h3>
-      <p>メールアドレス(必須)</p>
-      <input>
+      <div class = "form title">お問い合わせ</div>
+      <form action = "sent.html" method = "post"></form>
+      <p>生年月日を選択してください</p>
+      <select>
+        <option value = "未選択">選択してください</option>
+        <?php 
+          for ($i = 1923;$i <= 2023;$i++) {
+            echo "<option value = '{$i}'>'$i'</option>";
+          ?>
+      <p>お名前(必須)</p>
+      <input type = "text" name = "name">
       <p>お問い合わせ内容</p>
-      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <textarea name = "body"></textarea>
       <p>必須項目は必ずご入力ください</p>
       <input class="contact-submit" type="submit" value="送信">
     </div>
