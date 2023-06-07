@@ -26,9 +26,11 @@
       <h1>HELLO LUNA WORLD.</h1>
       <h2>ゲーム実況者LUNAのページへようこそ!</h2>
     </div>
+    
     <div class="contents">
       <h3>YouTubeでの実況</h3>
       <a href = "https://www.youtube.com/channel/UCdkt6oxDKCGHpDVQ6dRET_A">YouTubeへ飛ぶ</a>
+      
       <div class="contents-item">
         <p>大乱闘スマッシュブラザーズ</p>
         <img src="https://pbs.twimg.com/media/FFrwjoHagAABiLM?format=jpg&name=large">
@@ -41,6 +43,7 @@
         <a href = "https://youtu.be/ANthFImvAKg">デュエマカード開封へ飛ぶ</a>
       </div>
     </div>
+    
     <div class="contact-form">
       <div class = "form title">お問い合わせ</div>
       <form action = "sent.html" method = "post"></form>
@@ -49,7 +52,8 @@
         <option value = "未選択">選択してください</option>
         <?php 
           for ($i = 1923;$i <= 2023;$i++) {
-            echo "<option value = '{$i}'>'$i'</option>";
+            echo "<option value = '{$i}'>$i</option>";
+            }
           ?>
       </select>
       <p>お名前(必須)</p>
